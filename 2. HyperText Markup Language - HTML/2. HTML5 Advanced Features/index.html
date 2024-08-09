@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 Advanced Features</title>
+  </head>
+  <body>
+    <!-- 1. Tables -->
+    <h1>Tables</h1>
+
+    <table border="4">
+      <thead>
+        <tr>
+          <th colspan="4">Food Items</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="5">Apples</td>
+          <td>Oranges</td>
+          <td>Banana</td>
+          <td>Banana</td>
+        </tr>
+        <tr>
+          <!-- <td>Bread</td> -->
+          <td>Curd</td>
+          <td>Curd</td>
+          <td>Milk</td>
+        </tr>
+        <tr>
+          <!-- <td>Potato</td> -->
+          <td>Tomato</td>
+          <td>Tomato</td>
+          <td>Peas</td>
+        </tr>
+        <tr>
+          <!-- <td>Curry</td> -->
+          <td>Chinese</td>
+          <td>Chinese</td>
+          <td>Indian</td>
+        </tr>
+        <tr>
+          <!-- <td>Maggie</td> -->
+          <td>Soups</td>
+          <td>Soups</td>
+          <td>Drinks</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- 2. Forms -->
+    <h1>HTML Forms</h1>
+
+    <form action="/submit_form" method="post">
+      <label for="name">Name:</label><br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+      /><br /><br />
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+      /><br /><br />
+      <label for="password">Password:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+        required
+      /><br /><br />
+      <label for="hobbies">Dancing</label>
+      <input type="radio" />
+      <input type="submit" value="Submit" />
+      <!-- <button>Submit</button> -->
+    </form>
+
+    <!-- 3. Semantic HTML Elements -->
+    <h1>Semantic HTML Elements</h1>
+    <h1>Welcome to my Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <h2>My HTML Logo</h2>
+        <figure>
+          <img src="./htmlLogo.png" alt="htmlLogo" />
+          <figcaption>Figure 1: HTML5 Logo</figcaption>
+        </figure>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, vel.
+        </p>
+      </article>
+      <article>
+        <h2>Article Title</h2>
+        <p>This is an article about MERN Series 2024</p>
+      </article>
+      <section>
+        <h2>Article Title</h2>
+        <p>This is an article about MERN Series 2024</p>
+      </section>
+      <aside>
+        <h2>Article Title</h2>
+        <p>This is an article about MERN Series 2024</p>
+      </aside>
+      <footer>
+        <p>&copy; 2024 My Website</p>
+      </footer>
+    </main>
+  </body>
+</html>
