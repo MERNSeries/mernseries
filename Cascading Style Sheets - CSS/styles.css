@@ -1,0 +1,65 @@
+h1 {
+  color: purple;
+  background-color: aquamarine;
+}
+
+div {
+  width: 400px;
+  height: 100px;
+  background-color: pink;
+  border-radius: 4px;
+  color: grey;
+}
+
+.article {
+  width: 400px;
+  height: 100px;
+  background-color: green !important;
+  border-radius: 4px;
+  color: crimson;
+}
+
+.section {
+  width: 400px;
+  height: 100px;
+  background-color: blueviolet;
+  border-radius: 4px;
+  color: lightgreen;
+}
+
+#specialArticle {
+  width: 400px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 4px;
+  color: red;
+}
+
+/* id > class > tag
+inline > internal > external */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+[type="text"] {
+  background-color: peru;
+}
+
+.article:hover {
+  background-color: chartreuse;
+}
+
+#specialArticle:hover {
+  background-color: chartreuse;
+}
+
+/* h2::before {
+  content: "$ ";
+} */
+
+h2::first-line {
+  color: brown;
+  font-size: 40px;
+}
