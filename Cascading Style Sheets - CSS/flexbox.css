@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: cadetblue;
+  padding: 10px;
+}
+
+.flexItem {
+  width: 60px;
+  height: 50px;
+  border: 2px solid black;
+  flex-basis: 80px;
+  /* flex-shrink: 1; */
+}
+
+.boxA {
+  background-color: blue;
+  height: 70px;
+}
+
+.boxB {
+  background-color: green;
+  height: 30px;
+  flex-grow: 1;
+}
+
+.boxC {
+  background-color: yellow;
+  height: 10px;
+}
+
+.boxD {
+  background-color: red;
+  height: 100px;
+}
+
+.boxE {
+  background-color: white;
+  height: 28px;
+}
