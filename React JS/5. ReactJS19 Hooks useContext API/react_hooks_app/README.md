@@ -1,8 +1,9 @@
-# React + Vite
+# useRef Hook (React JS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 1. Accessing DOM elements directly: It can store a reference to a DOM element that persists across re-renders without causing a re-render when updated.
 
-Currently, two official plugins are available:
+## 2. Storing mutable values: It can hold any mutable value (like a counter) that persists between renders but doesn’t trigger a re-render when changed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 3. useRef returns a mutable object with a .current property, where the initial value is set. The value of .current persists across renders.
+
+## 4. Unlike useState, changing the .current value doesn’t cause the component to re-render.
