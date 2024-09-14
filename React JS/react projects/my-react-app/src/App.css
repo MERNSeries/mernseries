@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Light theme styles */
+.light {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Dark theme styles */
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Basic styles for header and nav */
+header {
+  padding: 10px;
+  background-color: aquamarine;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+button {
+  margin: 5px;
+}
