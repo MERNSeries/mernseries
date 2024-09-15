@@ -15,3 +15,19 @@
 # Event Loop: Node.js uses an event-driven, non-blocking I/O model to handle tasks asynchronously.
 
 # Node.js provides several built-in modules that make it easy to perform common tasks. Core modules are part of the Node.js runtime and do not need to be installed separately. They provide functionality such as file system operations, HTTP server creation, and more.
+
+# What is Event-Driven Architecture?
+
+## Event-driven architecture is a design pattern in which software components communicate through the production, detection, and consumption of events.
+
+## Node.js and Event-Driven Architecture: Node.js is built on an event-driven architecture. The EventEmitter class allows us to handle asynchronous events.
+
+## Real-World Analogy: Compare it to how you receive notifications on your phone. Events are like notifications that your application reacts to.
+
+# Asynchronous Programming in Node.js?
+
+## Asynchronous Nature: Node.js runs JavaScript in a single-threaded event loop, which allows non-blocking operations such as I/O tasks, HTTP requests, and database queries.
+
+## What is a Callback?: A callback is a function passed into another function as an argument, to be executed after the completion of an asynchronous task.
+
+## What is a Promise?: A Promise is an object that represents the eventual completion or failure of an asynchronous operation.
