@@ -1,0 +1,15 @@
+{
+  "name": "middleware",
+  "version": "1.0.0",
+  "description": "- Application-level middleware\r - Router-level middleware\r - Error-handling middleware\r - Built-in middleware\r - Third-party middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
